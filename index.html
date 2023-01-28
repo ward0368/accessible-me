@@ -14,9 +14,9 @@
 
 <body>
   <div class="container">
-    <header class="site-header">
-      <h1 id="jambox">Jam Box Studios</h1>
-      <nav class="main-nav">
+    <header role="banner" class="site-header">
+      <h1 role="heading" id="jambox">Jam Box Studios</h1>
+      <nav role="navigation" class="main-nav">
         <ul>
           <li><a href="#jambox">Home</a></li>
           <li><a href="#products">Products</a></li>
@@ -26,13 +26,13 @@
       </nav>
       <img src="https://placekitten.com/1200/900" class="banner">
     </header>
-    <main class="main-content">
+    <main role="main" class="main-content">
       <h2 id="products">Welcome to Jam Box</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
+      <p role="contentinfo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
+      <p role="contentinfo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <div class="owner">
         <h3>Meet the owner</h1>
-        <ul>
+        <ul itemscope itemtype="https://schema.org/Person">
           <li>Name: John Doe</li>
           <li>Title: CEO</li>
           <li>Email: johnjoe@jambox.ca</li>
@@ -48,7 +48,7 @@
       </div>
       <div class="contact-section">
         <h3 id="contactus">Contact Us</h1>
-        <form action="thanks.html">
+        <form role="form" action="thanks.html">
           <label>Full Name</label>
           <input type="text" placeholder="Full Name">
           <label>Your Email</label>
@@ -61,7 +61,7 @@
         </form>
       </div>
     </main>
-    <footer class="site-footer">
+    <footer role="contentinfo" class="site-footer">
       &copy; 2021 Jam Box Studios
     </footer>
   </div>
